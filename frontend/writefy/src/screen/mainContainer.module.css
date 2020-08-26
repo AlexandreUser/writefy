@@ -1,0 +1,25 @@
+.mainContainer {
+  width: 40%;
+  min-height: 100vh;
+}
+.mainTitle {
+  margin-top: 60px;
+  font-size: 20px;
+}
+.description {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.sectionContainer {
+  margin-top: 20px;
+  display: flex;
+}
+.boxContainer {
+  width: 49%;
+  max-height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-color: gray;
+  margin: 0 auto;
+}
