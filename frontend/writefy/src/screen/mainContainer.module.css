@@ -15,11 +15,78 @@
   margin-top: 20px;
   display: flex;
 }
+.userLogoAbsolute {
+  position: absolute;
+  border-radius: 999px;
+  z-index: 9999;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+.authorForImage {
+  position: absolute;
+  color: orange;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 1;
+  z-index: 9999;
+}
+.titleForImage {
+  position: absolute;
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 1;
+  z-index: 9999;
+}
+.boxBehind {
+  position: absolute;
+  z-index: 999;
+  background-color: black;
+  width: 250px;
+  min-height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 0.5;
+}
 .boxContainer {
-  width: 49%;
+  width: 250px;
   max-height: 350px;
   border-radius: 10px;
   object-fit: cover;
-  background-color: gray;
   margin: 0 auto;
+}
+.boxContainer:hover {
+}
+.authorsOfTheWeek {
+  margin-bottom: 20px;
+}
+.topSection {
+  width: 100%;
+  display: flex;
+  margin-top: -20px;
+}
+.userContainer {
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  width: 49%;
+  margin-top: 30px;
+}
+.userLogo {
+  border-radius: 10px;
+}
+
+.username {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.level {
+  margin-left: 12px;
+  margin-top: -10px;
+  font-size: 12px;
+  color: orange;
+  font-weight: bold;
 }
